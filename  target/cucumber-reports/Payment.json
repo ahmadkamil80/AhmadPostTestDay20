@@ -1,0 +1,299 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-19T16:22:49.419Z",
+        "line": 3,
+        "name": "Menambahkan payment baru data terisi lengkap",
+        "description": "",
+        "id": "payment-gateway-poject;menambahkan-payment-baru-data-terisi-lengkap",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29323775200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "customer sedang berada di halaman add customer \"https://demo.guru99.com/payment-gateway/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.guru99.com/payment-gateway/index.php\"",
+                  "offset": 47
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_sedang_berada_di_halaman_add_customer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5678373800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer memilih quatity",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_memilih_quatity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7696246900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer menekan buy now",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_menekan_buy_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4571367300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer memasukan card number \"1234567891234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 31
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_memasukan_card_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286399000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer memilih expiration month",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_memilih_expiration_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224208500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer memilih expiration year",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_memilih_expiration_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275258400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "customer memasukan cvv code \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_memasukan_cvv_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20411953700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "customer menekan pay",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_menekan_pay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5386305800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "customer harus mendapatkan pesan sukses \"Payment successfull!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Payment successfull!\"",
+                  "offset": 40
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_harus_mendapatkan_pesan_sukses(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-19T16:24:03.326Z",
+        "line": 14,
+        "name": "Menambahkan payment baru data tidak terisi lengkap",
+        "description": "",
+        "id": "payment-gateway-poject;menambahkan-payment-baru-data-tidak-terisi-lengkap",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31188508500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "customer sedang berada di halaman add customer \"https://demo.guru99.com/payment-gateway/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.guru99.com/payment-gateway/index.php\"",
+                  "offset": 47
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_sedang_berada_di_halaman_add_customer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4410681100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "customer memilih quatity",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_memilih_quatity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12690980500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "customer menekan buy now",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_menekan_buy_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5780469400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "customer memasukan card number \"123456789123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789123456\"",
+                  "offset": 31
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_memasukan_card_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361338000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "customer memilih expiration month",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_memilih_expiration_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290330600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "customer memilih expiration year",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_memilih_expiration_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335185000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "customer memasukan cvv code \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_memasukan_cvv_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348326700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "customer menekan pay",
+            "match": {
+              "location": "definitions.PaymentDefinitions.customer_menekan_pay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1785708600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "customer harus mendapatkan pesan alert \"Check card number is 16 digits!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check card number is 16 digits!\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.PaymentDefinitions.customer_harus_mendapatkan_pesan_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Payment Gateway Poject",
+    "description": "",
+    "id": "payment-gateway-poject",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/payment/Payment.feature",
+    "tags": []
+  }
+]
